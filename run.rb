@@ -10,7 +10,12 @@ require_relative "solutions/day8"
 # result = Day1.new.process(File.read("inputs/day1.txt"))
 # result = Day1.new.process2(File.read("inputs/day1.txt")) # FIXME
 # result = Day2.new.process(File.read("inputs/day2.txt"))
+# result = Day2.new.process2(File.read("inputs/day2.txt"))
 # result = Day3.new(File.read("inputs/day3.txt")).process
-result = Day4.new.process(File.read("inputs/day4.txt"))
+# result = Day4.new.process(File.read("inputs/day4.txt"))
+# result = Day5.new(File.read("inputs/day5.txt")).process # kinda slow
+# result = Day5.new(File.read("inputs/day5.txt")).process2 # super slow
+# result = Day6.new.process(File.read("inputs/day6.txt"))
+# result = Day6.new.process2(File.read("inputs/day6.txt"))
 
 puts result

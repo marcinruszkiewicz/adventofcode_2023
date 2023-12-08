@@ -44,14 +44,34 @@ humidity-to-location map:
       expect(worker.seeds).to eq [79, 14, 55, 13]
       expect(worker.humidity_to_location).to eq [
         {
-          destination_range: 56..92,
-          source_range: 60..96
+          source_range: 56..92,
+          destination_range: 60..96
         },
         {
-          destination_range: 93..96,
-          source_range: 56..59
+          source_range: 93..96,
+          destination_range: 56..59
         }
       ]
+    end
+  end
+
+  describe "get_destination" do
+    it "returns proper value" do
+      expect(worker.get_destination(:seed_to_soil, 10)).to eq 10
+      expect(worker.get_destination(:seed_to_soil, 98)).to eq 50
+      expect(worker.get_destination(:seed_to_soil, 99)).to eq 51
+    end
+  end
+
+  describe "process" do
+    it "returns location" do
+      expect(worker.process).to eq 35
+    end
+  end
+
+  describe "process2" do
+    it "returns location" do
+      expect(worker.process2).to eq 46
     end
   end
 end

@@ -34,6 +34,7 @@ RSpec.describe Day1 do
 
     it "solves doubles" do
       expect(described_class.new.calibrate2("6oneight")).to eq 68
+      expect(described_class.new.calibrate2("twone")).to eq 21
     end
   end
 

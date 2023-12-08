@@ -40,4 +40,34 @@ class Day2
 
     num.sum
   end
+
+  def process2(input)
+    num = []
+    input.split("\n").each do |line|
+      bags = line.split(";")
+
+      reds = []
+      blues = []
+      greens = []
+
+      bags.each do |bag|
+        m = bag.match(/(?<green>\d+) green/)
+        green = m == nil ? 0 : m[:green]
+        m = bag.match(/(?<blue>\d+) blue/)
+        blue = m == nil ? 0 : m[:blue]
+        m = bag.match(/(?<red>\d+) red/)
+        red = m == nil ? 0 : m[:red]
+
+        reds << red.to_i
+        greens << green.to_i
+        blues << blue.to_i
+      end
+
+      power = reds.max * greens.max * blues.max
+
+      num << power
+    end
+
+    num.sum
+  end
 end
