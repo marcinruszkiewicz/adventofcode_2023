@@ -22,6 +22,9 @@ result = nil
 # result = Day5.new(File.read("inputs/day5.txt")).process2 # super slow
 # result = Day6.new.process(File.read("inputs/day6.txt"))
 # result = Day6.new.process2(File.read("inputs/day6.txt"))
+# result = Day7.new.process(File.read("inputs/day7.txt"))
+# result = Day8.new.process(File.read("inputs/day8.txt"))
 # result = Day9.new.process(File.read("inputs/day9.txt"))
+# result = Day9.new.process2(File.read("inputs/day9.txt"))
 
 puts result

@@ -21,3 +21,11 @@ example_id                   | status | run_time        |
 ./spec/day6_spec.rb[1:1:1]   | passed | 0.00023 seconds |
 ./spec/day6_spec.rb[1:2:1]   | passed | 0.00006 seconds |
 ./spec/day6_spec.rb[1:3:1]   | passed | 0.00703 seconds |
+./spec/day7_spec.rb[1:1:1]   | passed | 0.00006 seconds |
+./spec/day7_spec.rb[1:2:1]   | passed | 0.00026 seconds |
+./spec/day7_spec.rb[1:3:1]   | passed | 0.00003 seconds |
+./spec/day7_spec.rb[1:4:1]   | passed | 0.00004 seconds |
+./spec/day7_spec.rb[1:5:1]   | passed | 0.00003 seconds |
+./spec/day8_spec.rb[1:1:1]   | passed | 0.00036 seconds |
+./spec/day9_spec.rb[1:1:1]   | passed | 0.00006 seconds |
+./spec/day9_spec.rb[1:2:1]   | passed | 0.00161 seconds |
