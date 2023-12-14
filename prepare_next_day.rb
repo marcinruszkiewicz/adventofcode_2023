@@ -14,15 +14,26 @@ def spec_content(num)
   require_relative "../solutions/day#{num}.rb"
 
   RSpec.describe Day#{num} do
+    describe "process" do
+      let(:input) do
+        <<~END
+        END
+      end
 
+      it "does things" do
+        expect(described_class.new.process(input)).to eq 1234
+      end
+    end
   end
   SPEC
 end
 
 def solution_content(num)
   <<~CODE
+  require "pp"
+
   class Day#{num}
-    def process
+    def process(input)
 
     end
   end

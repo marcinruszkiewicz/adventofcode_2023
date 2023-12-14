@@ -4,6 +4,8 @@ GEM
     coderay (1.1.3)
     diff-lcs (1.5.0)
     method_source (1.0.0)
+    pathfinding (0.0.1)
+    progressbar (1.13.0)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -25,6 +27,8 @@ PLATFORMS
   arm64-darwin-22
 
 DEPENDENCIES
+  pathfinding
+  progressbar
   pry
   rspec
 
