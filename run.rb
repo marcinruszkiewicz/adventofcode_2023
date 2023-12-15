@@ -12,6 +12,10 @@ require_relative "solutions/day9"
 require_relative "solutions/day10"
 require_relative "solutions/day11"
 require_relative "solutions/day12"
+require_relative "solutions/day13"
+require_relative "solutions/day14"
+require_relative "solutions/day15"
+require_relative "solutions/day16"
 
 result = nil
 
@@ -30,7 +34,12 @@ result = nil
 # result = Day9.new.process(File.read("inputs/day9.txt"))
 # result = Day9.new.process2(File.read("inputs/day9.txt"))
 # result = Day10.new.process(File.read("inputs/day10.txt"))
-result = Day11.new.process(File.read("inputs/day11.txt"))
-result = Day12.new.process(File.read("inputs/day12.txt"))
+# result = Day11.new.process(File.read("inputs/day11.txt"))
+# result = Day12.new.process(File.read("inputs/day12.txt"))
+# result = Day12.new.process2(File.read("inputs/day12.txt"))
+# result = Day13.new.process(File.read("inputs/day13.txt"))
+# result = Day14.new.process(File.read("inputs/day14.txt"))
+# result = Day15.new.process(File.read("inputs/day15.txt"))
+# result = Day16.new.process(File.read("inputs/day16.txt"))
 
 puts result
